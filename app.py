@@ -5,6 +5,8 @@ import sqlite3
 import base64
 import logging
 
+api_key = "nooPho4ae5ooyai2"
+
 # Vulnerability 1: Insecure use of os.system()
 def run_command(command):
     os.system(command)  # Vulnerable to command injection if input is not sanitized
